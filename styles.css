@@ -1,0 +1,99 @@
+body {
+  background-image: url("../assets/wheat2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
+}
+
+#heading {
+  background-color: rgba(140, 140, 140, 0.3);
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 10px 15px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+#description {
+  background-color: rgba(140, 140, 140, 0.3);
+  width: 50%;
+  margin: 0 auto 8px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+img {
+ max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: fit-content;
+  margin: 0 auto;
+  display: block;
+}
+
+#img-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  font-weight: 600;
+  background-color: rgba(140, 140, 140, 0.5);
+  border-radius: 10px;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#bottom {
+  background-image: url("../assets/wheat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  /* margin-bottom: 5px; */
+}
+
+#bottom p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+#bottom a {
+  color: black;
+  font-weight: 600;
+  font-size: 19px;
+  /* text-decoration: none; */
+}
+
+#bottom a:hover {
+  color: #e6e6e6;
+}
+
+#bottom a:active {
+  color: #e6e6e6;
+}
+
+#bottom a:visited {
+  color: black;
+}
+
+#bottom cite{
+  color: white;
+}
